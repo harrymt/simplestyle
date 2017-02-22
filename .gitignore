@@ -1,0 +1,15 @@
+# Ignore sass cache files
+/.sass-cache/*
+/.sass-cache
+
+# Ignore the map files
+*.css.map
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Dependency directories
+node_modules
+
+# npm cache
+.npm
