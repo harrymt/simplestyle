@@ -1,0 +1,9 @@
+
+@mixin opensans {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+// TODO REMOVE ME CHANGE TO DARKEN
+@function black($opacity) {
+  @return rgba(0, 0, 0, $opacity);
+}
