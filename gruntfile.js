@@ -39,6 +39,8 @@ module.exports = function (grunt) {
   });
 
 
+
+  grunt.loadNpmTasks('grunt-serve'); // Local server
   grunt.loadNpmTasks('grunt-scss-lint'); // Lint SCSS files
   grunt.loadNpmTasks('grunt-contrib-sass'); // Process Sass files
   grunt.loadNpmTasks('grunt-contrib-watch'); // On file update, do task
