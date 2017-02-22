@@ -1,0 +1,22 @@
+{
+  "name": "simplestyle",
+  "version": "0.0.1",
+  "description": "A simple CSS framework to make websites with style.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrymt/simplestyle"
+  },
+  "scripts": {
+    "test": "mocha dev/tests"
+  },
+  "homepage": "https://github.com/harrymt/simplestyle",
+  "bugs": "https://github.com/harrymt/simplestyle/issues",
+  "author": "Harry Mumford-Turner",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-scss-lint": "^0.5.0"
+  }
+}
