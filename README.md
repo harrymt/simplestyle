@@ -12,12 +12,12 @@ Either:
 
 ### 1. Serve from GitHub CDN
 
-- Add `//rawgit.com/harrymt/simplestyle/simplestyle.min.css` to your projects to get started.
+- Add `//cdn.rawgit.com/harrymt/simplestyle/master/simplestyle.min.css` to your projects to get started.
 
 
 ```html
 <head>
-  <link href="//rawgit.com/harrymt/simplestyle/simplestyle.min.css" rel="stylesheet">
+  <link href="//cdn.rawgit.com/harrymt/simplestyle/master/simplestyle.min.css" rel="stylesheet">
 </head>
 ```
 
