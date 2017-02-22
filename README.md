@@ -1,6 +1,6 @@
 # Simplestyle
 
-A simple CSS framework, built in SASS for designing simple web pages with style.
+A simple CSS framework, built in SASS for designing simple [web pages](http://www.harrymt.com/simplestyle/) with style.
 
 ## Setup
 
