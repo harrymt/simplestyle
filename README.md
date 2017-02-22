@@ -4,21 +4,29 @@ A simple CSS framework, built in SASS for designing simple web pages with style.
 
 ## Setup
 
-- Add `//rawgit.com/harrymt/simplestyle/simplestyle.min.css` to your projects to get started.
+Either:
 
-```html
-<head>
-  <link href="//rawgit.com/harrymt/simplestyle/simplestyle.min.css" rel="stylesheet">
-</head>
-```
+1. Serve from GitHub CDN using [RawGit](http://rawgit.com/)
 
-- Alternatively you can download the file yourself, place it into a `css` folder, and reference it within your HTML like this.
+  - Add `//rawgit.com/harrymt/simplestyle/simplestyle.min.css` to your projects to get started.
 
-```html
-<head>
-  <link href="/css/simplestyle.min.css" rel="stylesheet">
-</head>
-```
+
+  ```html
+  <head>
+    <link href="//rawgit.com/harrymt/simplestyle/simplestyle.min.css" rel="stylesheet">
+  </head>
+  ```
+
+2. Download [Minified CSS file](/simplestyle.min.css).
+
+  - Alternatively you can download the file yourself, place it into a `css` folder, and reference it within your HTML.
+
+
+  ```html
+  <head>
+    <link href="/css/simplestyle.min.css" rel="stylesheet">
+  </head>
+  ```
 
 ## Overview
 
