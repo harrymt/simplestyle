@@ -1,0 +1,19 @@
+/*
+ *  CSS Framework: simplestyle
+ *  Author: Harry Mumford-Turner
+ *  Description: A simple CSS framework.
+ *  Version: 0.1
+ *  License: MIT
+ */
+
+// Add vendor/3rd party styles here
+// @import "_vendor/<vendor_name>";
+
+@import "_partials/variables",
+        "_partials/mixins",
+        "_partials/breakpoints",
+        "_partials/functions",
+        "_partials/typography",
+        "_partials/grid",
+        "_partials/base",
+        "_partials/components";
