@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Simplestyle</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
     <link href="simplestyle.min.css" rel="stylesheet">
   </head>
@@ -11,23 +12,66 @@
         <ul class="navigation">
           <li><a class="active" href="#">Home</a>
           </li>
-          <li><a href="#">About&#32;<i class="fa fa-angle-down"></i></a>
+          <li><a href="#">Simplestyle&#32;<i class="fa fa-angle-down"></i></a>
             <ul class="navigation-nested">
-              <li><a href="#">Simplestyle</a></li>
-              <!-- <li><a href="#overview">Overview</a></li> -->
+              <li><a href="#layout">Page Layout</a></li>
+              <li><a href="#grid">Grid</a></li>
             </ul>
           </li>
         </ul>
         <div class="block_colour"></div>
         <div class="information">
           <h1>Simplestyle</h1>
-          <p>This was built so you can create simple <a href="//github.com/harrymt/web_playground">projects</a> that are simple and have style.</p>
-<!--           <p>Note: the arrows in the header are FontAwesome icons, add the following to make them work.</p> -->
+          <p>Build simple <a href="//github.com/harrymt/web_playground">projects</a> with style.</p>
+          <p>Note: This is a work in progress.</p>
         </div>
-<!--         <div class="information">
-          <h1>Overview</h1>
-          <p>A simple material design.</p>
-        </div> -->
+        <div class="information">
+          <h2 id="overview">Overview</h2>
+          <p>1. Serve from Github CDN using <a href="//rawgit.com">RawGit</a>.</p>
+          <pre>
+&lt;head&gt;
+  &lt;link href="//cdn.rawgit.com/harrymt/simplestyle/master/simplestyle.min.css" rel="stylesheet"&gt;
+&lt;/head&gt;
+          </pre>
+          <p>2. Download <a href="simplestyle.min.css">Minified CSS</a> file, place it into a `css` folder then reference it within your HTML.</a>
+          <pre>
+&lt;head&gt;
+  &lt;link href="/css/simplestyle.min.css" rel="stylesheet"&gt;
+&lt;/head&gt;
+          </pre>
+        </div>
+
+        <div class="information">
+          <h2 id="layout">Page Layout</h2>
+          <p>A basic page layout is as follows.</p>
+          <pre>
+&lt;body&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="main"&gt;
+      &lt;div class="information"&gt;
+        &lt;h1&gt;A heading&lt;/h1&gt;
+        &lt;p&gt;A paragraph.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+          </pre>
+        </div>
+        <div class="information">
+          <h2 id="grid">Grid</h2>
+          <p>Each information box uses a material style that is resting on the page, like paper. An inner grid is used rarely to position information inside these boxes.</p>
+          <pre>
+&lt;div class="information"&gt;
+  &lt;h1&gt;A heading&lt;/h1&gt;
+  &lt;div class="left"&gt;
+    &lt;p&gt;Some text that is over to the left.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="right"&gt;
+    &lt;p&gt;Some text that is over to the right.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+          </pre>
+        </div>
       </div>
       <footer>
         <div class="information">
