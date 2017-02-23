@@ -1,5 +1,31 @@
 
 
+//- BUTTON -
+
+.button {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 150px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  border: solid 3px $material-grey;
+  padding: 15px 20px;
+  border-radius: 2px;
+  color: darken($material-grey, 50%);
+  height: 20px;
+
+  &:hover {
+    color: lighten($material-black, 10%);
+    border-color: lighten($material-black, 10%);
+  }
+}
+
+
+
 pre {
   overflow: auto;
 }
@@ -91,3 +117,6 @@ ul.navigation {
     }
   }
 }
+
+
+
