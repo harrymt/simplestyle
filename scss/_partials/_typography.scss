@@ -1,18 +1,14 @@
 
 
 h1 {
-  color: $masked-grey;
+  color: $material-black;
   font-size: 1.5rem;
   padding: 0 10px;
-  border-left: 3px solid $material-pink;
+  border-left: 3px solid $material-main;
 }
 
-h3 {
-  color: darken($subtle-grey, 7%);
-  font-size: 1rem;
-  font-weight: 300;
-  padding: 0 10px;
-  border-left: 3px solid $material-pink;
+h2 {
+  color: darken($material-black, 7%);
 }
 
 p {

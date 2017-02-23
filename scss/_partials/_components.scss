@@ -1,8 +1,15 @@
 
+
+pre {
+  overflow: auto;
+}
+
+// ------ MATERIAL STYLE ------
+
 .block_colour {
   width: 100%;
   height: 300px;
-  background-color: $material-pink;
+  background-color: $material-main;
 }
 
 
@@ -16,10 +23,9 @@
 
 
 %material {
-  box-shadow: 0 4px 12px rgba($shadow-color, 0.1);
-  background-color: $subtle-white;
+  box-shadow: 0 4px 12px rgba($shadow-color, .1);
+  background-color: $material-white;
 }
-
 
 
 // ----- NAVIGATION ------
@@ -36,14 +42,14 @@ ul.navigation-nested {
   // secondary li
   li {
     display: block;
-    background-color: darken($subtle-white, 7%);
+    background-color: darken($material-white, 7%);
 
     a {
       width: 200px;
     }
 
     &:hover {
-      background-color: darken($subtle-white, 10%);
+      background-color: darken($material-white, 10%);
     }
   }
 }
@@ -58,14 +64,14 @@ ul.navigation {
   li {
     font-size: 1rem;
     font-weight: 400;
-    color: $masked-grey;
+    color: $material-black;
 
     display: inline-block;
     position: relative;
 
     a {
       text-decoration: none;
-      color: $masked-grey;
+      color: $material-black;
     }
 
     // secondary ul
@@ -76,7 +82,7 @@ ul.navigation {
 
   li:hover {
     cursor: pointer;
-    background-color: $subtle-grey;
+    background-color: darken($material-white, 15%);
 
     ul.navigation-nested {
       display: block;
