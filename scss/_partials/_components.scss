@@ -50,6 +50,10 @@ pre {
   width: 100%;
   height: 300px;
   background-color: $material-main;
+
+  @include breakpoint(mobile) {
+    height: 150px;
+  }
 }
 
 
@@ -139,15 +143,33 @@ ul.navigation {
       padding-left: 0;
       position: absolute;
       z-index: 1;
+      display: block;
 
       @include breakpoint(mobile) {
         display: none;
       }
-
-      @include breakpoint(desktop) {
-        display: block;
-      }
     }
   }
 
+}
+
+
+// -- SVG --
+
+.icon {
+  display: inline-block;
+  width: .9em;
+  height: .9em;
+  fill: currentColor;
+}
+
+.icon-circle-down {
+  color: lighten($material-black, 25%);
+}
+
+.svg-definition {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
 }
