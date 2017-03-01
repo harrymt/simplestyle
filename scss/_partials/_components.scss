@@ -92,6 +92,10 @@ ul.navigation-nested {
       background-color: darken($material-white, 10%);
     }
   }
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
 }
 
 ul.navigation {
@@ -99,6 +103,12 @@ ul.navigation {
 
   font-size: 0;
   list-style-type: none;
+
+  svg {
+    @include breakpoint(mobile) {
+      display: none;
+    }
+  }
 
   // initial li
   li {
@@ -128,9 +138,11 @@ ul.navigation {
       display: block;
       padding-left: 0;
       position: absolute;
+      z-index: 1;
     }
   }
 }
+
 
 
 
