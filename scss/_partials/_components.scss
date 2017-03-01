@@ -92,10 +92,6 @@ ul.navigation-nested {
       background-color: darken($material-white, 10%);
     }
   }
-
-  @include breakpoint(mobile) {
-    display: none;
-  }
 }
 
 ul.navigation {
@@ -139,6 +135,10 @@ ul.navigation {
       padding-left: 0;
       position: absolute;
       z-index: 1;
+
+      @include breakpoint(mobile) {
+        display: none;
+      }
     }
   }
 }
