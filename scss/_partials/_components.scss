@@ -1,5 +1,17 @@
 
 
+// - BANNER -
+
+.banner {
+  background-color: $material-white;
+  border-bottom: 1px solid $material-grey;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-indent: 20px;
+}
+
 //- BUTTON -
 
 .button {
