@@ -64,7 +64,7 @@ pre {
   background-color: $material-white;
 
   @include breakpoint(mobile) {
-    padding: 20px 25px 40px 25px;
+    padding: 20px 25px 40px;
   }
 }
 
@@ -164,7 +164,6 @@ ul.navigation {
   display: inline-block;
   width: .9em;
   height: .9em;
-  fill: currentColor;
 }
 
 .icon-circle-down {
