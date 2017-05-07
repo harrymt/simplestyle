@@ -38,6 +38,7 @@ Either:
 - Why is it better?
 - Some stats about this?
 
+
 ## Development
 
 - Clone the project via `git clone https://github.com/harrymt/simplestyle.git`
