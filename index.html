@@ -9,6 +9,15 @@
     <style>
     /* SVG style */
 
+
+    /* Grid demo style */
+    .half, .full {
+      background: #eee;
+      border: 1px solid #c7c7c7;
+      border-radius: 4px;
+      color: #8a8a8a;
+      text-align: center;
+    }
     </style>
   </head>
   <body>
@@ -86,18 +95,40 @@
         <div class="information">
           <h2 id="grid">Grid</h2>
           <p>Each information box uses a material style that is resting on the page, like paper. An inner grid is used rarely to position information inside these boxes.</p>
+          <div class="row">
+            <div class="half">
+              <p>half</p>
+            </div>
+            <div class="half">
+              <p>half</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="full">
+              <p>full</p>
+            </div>
+          </div>
           <pre>
-&lt;div class="information"&gt;
-  &lt;h1&gt;A heading&lt;/h1&gt;
-  &lt;div class="left"&gt;
-    &lt;p&gt;Some text that is over to the left.&lt;/p&gt;
+&lt;div class="row"&gt;
+  &lt;div class="half"&gt;
+    &lt;p&gt;
+      half
+    &lt;/p&gt;
   &lt;/div&gt;
-  &lt;div class="right"&gt;
-    &lt;p&gt;Some text that is over to the right.&lt;/p&gt;
+  &lt;div class="half"&gt;
+    &lt;p&gt;
+      half
+    &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-          </pre>
-        </div>
+&lt;div class="row"&gt;
+  &lt;div class="full"&gt;
+    &lt;p&gt;
+      full
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+        </pre>
       </div>
       <footer>
         <div class="information">
