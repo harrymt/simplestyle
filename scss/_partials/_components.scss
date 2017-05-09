@@ -104,14 +104,10 @@ ul.navigation-nested {
 
 ul.navigation {
   @extend %material;
-
   font-size: 0;
   list-style-type: none;
-  padding: 0;
-
-  @include breakpoint(desktop) {
-    padding-left: 40px;
-  }
+  padding-left: 20px;
+  padding-right: 20px;
 
   svg {
     @include breakpoint(mobile) {
@@ -136,6 +132,14 @@ ul.navigation {
     // secondary ul
     ul.navigation-nested {
       display: none;
+    }
+
+    &.right {
+      float: right;
+
+      @include breakpoint(mobile) {
+        float: none;
+      }
     }
   }
 
