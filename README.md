@@ -44,6 +44,7 @@ Either:
 - Clone the project via `git clone https://github.com/harrymt/simplestyle.git`
 - Run `npm install` to install the required packages
 - Finally run `grunt` to build everything.
+- `grunt serve` starts local server on http://localhost:9000/
 
 
 ## Technologies used
